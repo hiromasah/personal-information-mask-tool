@@ -1,0 +1,492 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>Help</TITLE>
+</HEAD>
+<BODY>
+<!-- 目次ー -->
+<TABLE border="0" width="800">
+  <TBODY>
+    <TR>
+      <TD colspan="2"><a name="helpTop"></a>形態素解析を利用した個人情報マスクプログラム（通称　PMP）　オンラインヘルプ</TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top"><a href="#hajimeni">第一章　はじめに</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni1">PMP とは</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni2">主な機能</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni3">動作条件</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">４．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni4">作者</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">５．</TD>
+      <TD width="95%" valign="top"><a href="#hajimeni5">ライセンス</a></TD>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top"><a href="#setup">第二章　セットアップ</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#setup1">パッケージの構成</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a href="#setup2">セットアップ方法</a></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top"><a href="#opration">第三章　操作方法</a></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a href="#opration-main">【メイン画面】</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main1">入力ファイルの選択</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">５．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main5">出力フォルダ選択</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">６．</TD>
+      <TD width="95%" valign="top"><a href="#opration-main6">実行</a></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<br><hr>
+<br>
+<!-- 第一章　はじめにー -->
+<table border="0" width="800">
+    <tr>
+        <td colspan="2" valign="top"><a name="hajimeni"></a>第一章　はじめに</td>
+    <tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この章では、本プログラムの特徴や動作条件、ライセンスについて記述しています。<br></TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni1">PMP とは</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この「形態素解析を利用した個人情報マスク・プログラム（通称　PMP）」は、オープンソ<br>
+ースの形態素解析エンジンMeCabを使用してテキストファイル内の個人情報をマスクするた<br>
+めの支援プログラムです。<br></TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+    <TD width="95%" valign="top"><a name="hajimeni2">主な機能</a></TD>
+  <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">１）</td>
+            <td valign="top" width="95%">入力ファイルを複数指定することができます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">２）</td>
+            <td valign="top" width="95%">出力フォルダを指定することができます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%"></td>
+            <td valign="top" width="95%">個人情報をマスクした出力ファイルは、指定した出力フォルダにオリジナル・ファイル名<br>
+の末尾に.mskという拡張子をつけたファイル名で作成されます。<br></td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni3">動作条件</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">以下のWindows OS が動作する環境下での使用を推奨します。<br>
+      ・Windows XP、Windows Vista、Windows 7<br>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">４．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni4">作者</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">堀口　裕正 (hiromasa-tky@umin.ac.jp)<br>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">５．</TD>
+      <TD width="95%" valign="top"><a name="hajimeni5">ライセンス</a></TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">本プログラムには、"GNU 一般公衆利用許諾契約書(GNU General Public License:GPL) Version 3"  (以下GNU GPL)を適用します。<br>
+このライセンスは次のような特徴を持ちます。</TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td>
+         ・ソースコードが公開されている<br>
+         ・誰でも自由にプログラムの複製、頒布、改変ができる<br>
+         ・派生するソフトウェアにもGNU GPLを適用しなければならない<br>
+         ・GNU GPLのより詳しい内容はdoc/COPYING.txtをご覧ください。
+      </td>
+    </tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">他の団体・プロジェクト等で作成されたプログラムについて。</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">このパッケージには、本プログラムを使用するために必要なもので、他の団体・プロジェクト等で作成されたプログラムも同梱されています。<br>
+これらのプログラムの著作権は、それぞれのプログラムの作者が保有しています。<br>
+改変・再配布等の条件はそれぞれのプログラムのライセンスに従ってください。<br><br>
+同梱プログラム<br>
+・MeCab   http://mecab.sourceforge.net/<br>
+・Qt      http://qt.nokia.com/<br>
+<br>
+1) MaCab(Version 0.98)<br>
+   MeCabは 京都大学情報学研究科?日本電信電話株式会社コミュニケーション科学基礎研<br>
+   究所共同研究ユニットプロジェクトを通じて開発されたオープンソース形態素解析エン<br>
+   ジン。<br>
+<br>
+2) Qt(キュート)(Version 4.7.1)<br>
+   ノルウェーのQtソフトウェア社によって開発された、C++言語で書かれたクロス・<br>
+   プラットフォームGUIツールキット。オープンソース版のライセンスはGPL。<br>
+      </TD>
+    </TR>
+</table>
+<br>
+<br>
+<a href="#helpTop">トップに戻る</a>
+<br>
+<br>
+
+<table width="800">
+    <tr>
+        <td colspan="2" valign="top"><a name="setup">第二章 セットアップ</td>
+    <tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この章では、パッケージの構成、インストール・アンインストール方法などについて記述しています。</TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">１．</TD>
+      <TD width="95%" valign="top"><a name="setup1">パッケージの構成</a></TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td><table>
+        <tr><td>・help.html</td><td>ヘルプ・ファイル</td></tr>
+        <tr><td>・PMP.exe</td><td>本アプリケーション本体</td></tr>
+        <tr><td>・PMP.ini</td><td>本アプリケーションのiniファイル</td></tr>
+        <tr><td>・QtCore4.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・QtGui4.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・mingwm10.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・libgcc_s_dw2-1.dll</td><td>Qtのダイナミック・リンク・ライブラリ</td></tr>
+        <tr><td>・PMP.qm</td><td>日本語用言語ファイル</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td>・pluginsフォルダ</td><td>Qtプラグイン</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td>・srcフォルダ</td><td>本プログラムのソースファイル</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td colspan="2">・csrcフォルダ</td></tr>
+        <tr><td>　MaCab-0.98.exe</td><td>MaCabバイナリ</td></tr>
+        <tr><td>　MaCab-0.98.tar.gz</td><td>MaCabソース</td></tr>
+        <tr><td>　qt-sdk-win-opensource-2010.05.exe</td><td>Qtソース</td></tr>
+        <tr><td colspan="2"></tr>
+        <tr><td colspan="2">・docフォルダ</td></tr>
+        <tr><td>　NEWS.txt</td><td>変更履歴</td></tr>
+        <tr><td>　readme.txt</td><td>readmeファイル</td></tr>
+        <tr><td>　COPYING.txt</td><td>GNU 一般公有使用許諾書</td></tr>
+      </table></td>
+    </tr>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">２．</TD>
+      <TD width="95%" valign="top"><a name="setup2">インストール方法</a></TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td>
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">１）</td>
+            <td valign="top" width="95%">PMP-x.x.zip（x.xはバージョン番号）ファイルの上でマウス右クリックします。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">２）</td>
+            <td valign="top" width="95%">すべて展開を選択します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">３）</td>
+            <td valign="top" width="95%">展開ウィザードが開きますので、次へボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">４）</td>
+            <td valign="top" width="95%">ファイル展開先フォルダは適当なローカルフォルダを選択し、次へボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">５）</td>
+            <td valign="top" width="95%">完了ボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">６）</td>
+            <td valign="top" width="95%">展開されたフォルダ内の「INSTALL.bat」（拡張子が表示されない設定の場合は「INSTALL」<br>
+と表示されます）をダブルクリックすると、最初にMeCabのインストーラが起動します。<br>
+  （PMPを動作させるには、MeCabをインストールする必要があります。）</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">７）</td>
+            <td valign="top" width="95%">MeCabセットアップウイザードが表示されるので、以下の手順でセットアップします。<br>
+<br>
+ ・インストール中に使用する言語選択画面表示 → Japaneseを選択しOKボタンを押下する。<br>
+ ・MeCabセットアップ・ウィザードの開始 → 次へボタンを押下する<br>
+ ・辞書の文字コードの選択 → SHIFT-JISを選択し次へボタンを押下する。<br>
+ ・使用許諾書の同意 → 同意するを選択し次へボタンを押下する。<br>
+ ・インストール先の指定 → デフォルトのまま次へボタンを押下する。<br>
+    32ビット版OS → C:\Program Files\MeCab<br>
+    64ビット版OS → C:\Program Files (x86)\MeCab<br>
+<br>
+   注意：インストールフォルダを変更した場合は、本アプリケーションの iniファイルに<br>
+         その旨記述する必要があります。<br>
+<br>
+ ・プログラムグループの指定 → デフォルトのまま次へボタンを押下する。<br>
+ ・インストール準備完了 → インストール・ボタンを押下する<br>
+ ・MeCabセットアップ・ウィザードの完了 → 完了ボタンを押下する<br>
+ セットアップウイザードが閉じ、MeCabのインストールは終了です。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">８）</td>
+            <td valign="top" width="95%">「インストールを完了しました。何かキーを押してください。」と表示されます。<br>
+何かキーを押してください。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">９）</td>
+            <td valign="top" width="95%">展開されたフォルダ内の「PMP.exe」（拡張子が表示されない設定の場合は「PMP」と表示されます）をダブルクリックすると、本プログラムが起動します。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </td>
+    </tr>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top">３．</TD>
+      <TD width="95%" valign="top"><a name="setup2">アンインストール方法</a></TD>
+    </TR>
+    <tr>
+      <td></td>
+      <td>
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">&nbsp;</td>
+            <td valign="top" width="95%">本プログラムのフォルダを削除します。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </td>
+    </tr>
+</table>
+<br>
+<br>
+<a href="#helpTop">トップに戻る</a>
+<br>
+<br>
+<!-- 第三章　操作方法ー -->
+<table border="0" width="800">
+    <tr>
+        <td colspan="2" valign="top"><a name="opration">第三章　操作方法</a></td>
+    <tr>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">この章では 本プログラムの操作方法について記述します。<br></TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD width="5%" align="right" valign="top"></TD>
+      <TD width="95%" valign="top">一連の操作手順は、以下の通りです。
+  <!-- テーブルのネスト Start-->
+          <table width="100%">
+            <tr>
+              <td align="right" valign="top" width="5%">１）</td>
+              <td valign="top" width="95%">入力ファイル（複数可）を選択します。</td>
+            </tr>
+            <tr>
+              <td align="right" valign="top" width="5%">３）</td>
+              <td valign="top" width="95%">出力フォルダを指定します。</td>
+            </tr>
+            <tr>
+              <td align="right" valign="top" width="5%">４）</td>
+              <td valign="top" width="95%">実行します。</td>
+            </tr>
+          </table>
+  <!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD colspan="2" valign="top">&nbsp;&nbsp;<a name="opration-main">【メイン画面】</a></TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">１．</TD>
+      <TD valign="top" width="95%"><a name="opration-main1">入力ファイルの選択</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>追加</B>」ボタン押下で、ファイル選択ダイアログを開きます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">対象のファイルを選択します。<br>Ctrl＋マウス左クリック、Shift＋マウス左クリックで複数同時選択も可能です。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">選択ファイル数および合計ファイルサイズが表示されます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">&nbsp;</TD>
+      <TD valign="top" width="95%"><a name="opration-main2">選択の解除</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">対象ファイル一覧表示エリアのファイルを選択（マウス左クリック）し、「<B>削除</B>」ボタン押下で、対象から解除されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">複数ファイルを選択して一括解除も可能です。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">２．</TD>
+      <TD valign="top" width="95%"><a name="opration-main4">出力フォルダ選択</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>参照</B>」ボタン押下で、フォルダ選択ダイアログを開きます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">ファイルの出力先を指定します。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan="2">&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="right" width="5%">３．</TD>
+      <TD valign="top" width="95%"><a name="opration-main5">実行</a></TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD valign="top">
+<!-- テーブルのネスト Start-->
+        <table width="100%">
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>実行</B>」ボタンを押下します。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">作業中のログが表示され、処理が終了すると「<B>完了</B>」のダイアログが表示されます。</td>
+          </tr>
+          <tr>
+            <td align="right" valign="top" width="5%">・</td>
+            <td valign="top" width="95%">「<B>OK</B>」ボタンを押下します。<br>
+個人情報をマスクした出力ファイルは、指定した出力フォルダにオリジナル・ファイル名<br>
+の末尾に.mskという拡張子をつけたファイル名で作成されます。</td>
+          </tr>
+        </table>
+<!-- テーブルのネスト End-->
+      </TD>
+    </TR>
+</table>
+<br>
+<a href="#helpTop">トップに戻る</a>
+
+</BODY>
+</HTML>

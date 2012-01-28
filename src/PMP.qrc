@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>Briefcase_files.ico</file>
+    </qresource>
+</RCC>
